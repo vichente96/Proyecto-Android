@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aparatos asignados"
+        android:layout_marginStart="90dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:id="@+id/eliminar"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <!--
+     <ListView
+         android:layout_marginTop="50dp"
+         android:layout_width="match_parent"
+         android:layout_height="450dp">
+     </ListView>
+     -->
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp">
+
+        <CheckBox
+            android:id="@+id/chek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="220dp"
+        android:layout_height="400dp"
+        android:id="@+id/tareas">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicio Basico De TV De Cable "
+            android:layout_marginTop="7dp"
+            android:textSize="15dp"
+            android:id="@+id/textservicio"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="290dp"
+        android:id="@+id/botones">
+
+        <Spinner
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:id="@+id/medio"
+            android:autofillHints="Medio"
+            android:layout_marginTop="5dp"
+            >
+
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
